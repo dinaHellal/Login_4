@@ -18,10 +18,6 @@ a {
 img {
   max-width: 100%;
 }
-.container {
-  padding: 0 15px;
-  margin: auto;
-}
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -37,11 +33,20 @@ img {
     width: 1170px;
   }
 }
-header {
-  padding: 20px 0;
+header{
+  background-image: url(assets/images/Rectangle11.png);
 }
 header a {
+  position: absolute;
+  bottom: 626px;
+  left: 10px;
   font-size: 20px;
   font-weight: 600;
   color: var(--white);
+    line-height: 30px;
+}
+.container .image-side{
+width: 700px;
+height: 900px;
+
 }
