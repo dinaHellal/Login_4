@@ -1,28 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/styles/main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-  <title>Sign in</title>
-</head>
-<body>
+    <title>Sign in</title>
+  </head>
+  <body>
     <header>
-      <div class="image">
-        <img src="assets/images/Rectangle11.png" alt="airplane image"></div>
-        <a href="index.html">Your Logo</a>
+      <a href="index.html">Your Logo</a>
     </header>
     <main>
       <section>
-      
-
+        <div class="container">
+            <div class="image">
+        <img src="assets/images/Rectangle11.png" alt="airplane image" />
+      </div>
+      <div class="form">
+            <h1>Sign in</h1>
+            <p>
+              If you don’t have an account register <br />
+              You can <a href="sign.html"> Register here !</a>
+            </p>
+            <form method="post">
+              <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" autofocus required><hr> <br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter Your Password" required><hr>
+                <div class="remember">
+                <input type="checkbox" name="chekremember" id="checkbox">
+                <label for="checkbox">Rememebr me</label>
+                <a href="#" class="forgot-password">Forgot Password ?</a><br>
+                </div>
+                <input type="submit" value="Login" class="submit-btn">
+            </form>
+            <div class="continue-with">
+            <p>or continue with</p>
+            <ul>
+              <li><a href="#"><img src="assets/images/Facebook.png" alt="Facebook"></a></li>
+              <li><a href="#"><img src="assets/images/apple.png" alt="apple"></a></li>
+              <li><a href="#"><img src="assets/images/google.png" alt="google"></a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-</body>
+  </body>
 </html>
